@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFF4;
+}
+
+.box-area{
+    text-align: center;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: tan;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size:30px;
+    color: black;
+    letter-spacing:5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.nav{
+    margin-right: auto;
+    line-height: 100px;
+}
+
+.nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 20px;
+    color:black;
+}
+
+.nav a:visited{
+    color: #FFFFF4;
+}
+
+.nav a:active{
+    color: black;
+}
+
+.banner-area{
+    width:100%;
+    height: 120px;
+    position: fixed;
+    top:100px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-container img{
+    width: 32%;
+    height: 30%;
+    margin: auto;
+}
+
+.ingreHead {
+    text-align: center
+}
+
+.ingreHead p{
+    font: size 30px; 
+    text-align: center; 
+    background-color:antiquewhite; 
+    margin:auto; 
+    width: 60%; 
+    height: 50px;
+}
+
+.ingre-container{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+    background-color:tan;
+}
+
+.ingre-container img{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+
+.ingre-container p{
+    width: 100%;
+    height: 40%;
+    margin: left;
+    text-align: left;
+}
+
+.stepHead {
+    text-align: center
+}
+
+.stepHead p{
+    font: size 30px; 
+    text-align: center; 
+    background-color:antiquewhite; 
+    margin:auto; 
+    width: 60%; 
+    height: 50px;
+}
+
+.step-container{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+    background-color:tan;
+}
+
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+} 
+
+  footer {
+    background-color: tan;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .linkContact a:link, a:visited {
+    color: #FFFFF4;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .linkContact a:active {
+    color: black;
+  }
